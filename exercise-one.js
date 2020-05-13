@@ -50,3 +50,29 @@ function swapNumbers(x,y) {
 
   //STEP 2:
 
+//STEP 2 COMPLETE ABOVE
+
+//STEP 3:
+        var x="D";
+        var y=2;
+
+        switch(x) {
+        
+        case "A":
+            y = x;
+            console.log("The value of y is now "+ y);
+            break;
+        case "B":
+            y = y*3;
+            console.log("The value of y is now "+ y);
+            break;
+        case "C":
+            y = 0;
+            console.log("The value of y is now "+ y);
+            break;
+        case "D":
+            y = "null";
+            console.log("The value of y is now "+ y);
+            break;
+        }
+//STEP 3 COMPLETE ABOVE
