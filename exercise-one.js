@@ -14,7 +14,7 @@ Stretch Requirements:
 1. Given four variables, x, y, even, and odd, where x and y are positive numbers and even and odd start at 0; count how many numbers are even or odd between x and y.*/
 
 // STEP 1:
-/*
+
 function swapNumbers(x,y) {
 
     if(x == y) {
@@ -46,28 +46,29 @@ function swapNumbers(x,y) {
         }       
     }
      swapNumbers(15,12);
-  // STEP 1 COMPLETE (ABOVE)  
-*/
 
-  //STEP 2:
-/*
-let x = 1;
-let y = 12;
-let z = "";
+     // STEP 1 COMPLETE (ABOVE)  
 
-while (x <= y) {
-    if(y % x !== 0){
-        x++;
-    }
-    else{
-    z = z + x + " ";
-    x++;
-    }
-}
-console.log(z);
-document.write(`the factors of Y (${y}) are: ${z}`);
-*/
+            /* EXTRA CODE HERE TO DETERMINE ALL #s THAT ARE FACTORS OF Y
+            let x = 1;
+            let y = 12;
+            let z = "";
 
+            while (x <= y) {
+                if(y % x !== 0){
+                    x++;
+                }
+                else{
+                z = z + x + " ";
+                x++;
+                }
+            }
+            console.log(z);
+            document.write(`the factors of Y (${y}) are: ${z}`);
+            */
+
+
+//STEP 2:
 let x = 3;
 let y = 40;
 let z = "";
@@ -88,7 +89,6 @@ while (count <= y) {
 console.log(z);
 document.write(`Every value divisible by X (${x}) between the positive integers 0 and Y (${y}) are: ${z}`);
 
-/*
 //STEP 2 COMPLETE ABOVE
 
 //STEP 3:
@@ -115,7 +115,7 @@ document.write(`Every value divisible by X (${x}) between the positive integers 
             break;
         }
 //STEP 3 COMPLETE ABOVE
-*/
+
 
 // STRETCH REQUIREMENT // 
 // Stretch Requirements:
@@ -165,3 +165,4 @@ function evenOddCount (x, y) {
 evenOddCount(5, 10);
 
 document.write(`Even count = ${even}, while the Odd count = ${odd}`);
+// STRETCH REQUIREMENT COMPLETE ABOVE// 
